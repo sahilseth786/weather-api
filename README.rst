@@ -17,7 +17,7 @@ Install
 
 ::
 
-    pip install weather-api
+    pip install python3-weather-api
 
 Examples
 --------

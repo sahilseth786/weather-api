@@ -1,16 +1,12 @@
-from setuptools import setup
+from distutils.core import setup
 
-with open("README.rst", "rb") as f:
-    long_descr = f.read().decode("utf-8")
-
-setup(name='weather-api',
-      version='0.0.2',
+setup(name='python3-weather-api',
+      version='0.0.4',
       description='A Python wrapper for the Yahoo Weather XML RSS feed.',
-      long_description=long_descr,
-      url='https://github.com/AnthonyBloomer/weather-api',
-      author='Anthony Bloomer',
+      url='https://github.com/stevob21/weather-api',
+      author='AnthonyBloomer, Stephen Boyd',
       keywords=['weather', 'api'],
-      author_email='ant0@protonmail.ch',
+      author_email='ant0@protonmail.ch, stevob212@gmail.com',
       license='MIT',
       packages=['weather', 'weather.models'],
       install_requires=[
@@ -20,6 +16,6 @@ setup(name='weather-api',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
           "Topic :: Software Development :: Libraries",
-          'Programming Language :: Python :: 2.7'
+          'Programming Language :: Python :: 3.0'
       ],
       zip_safe=False)
