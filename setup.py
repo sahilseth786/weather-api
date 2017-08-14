@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name='python3-weather-api',
-      version='0.0.4',
+      version='0.0.5',
       description='A Python wrapper for the Yahoo Weather XML RSS feed.',
       url='https://github.com/stevob21/weather-api',
       author='AnthonyBloomer, Stephen Boyd',
