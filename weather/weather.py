@@ -1,8 +1,8 @@
 import requests
-from models.weather_obj import WeatherObject
+from .models.weather_obj import Weather
 
 
-class WeatherObj(object):
+class Weather(object):
     URL = 'http://query.yahooapis.com/v1/public/yql'
 
     def lookup(self, woeid):

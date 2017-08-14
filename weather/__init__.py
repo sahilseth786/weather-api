@@ -1,1 +1,1 @@
-from weather import WeatherObj
+from .weather import Weather
