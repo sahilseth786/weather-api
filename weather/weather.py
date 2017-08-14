@@ -22,4 +22,4 @@ class Weather(object):
             wo = WeatherObject(results['query']['results']['channel'])
             return wo
         else:
-            print 'No results found.'
+            print('No results found.')
