@@ -1,7 +1,7 @@
 weather-api
 ===========
 
-A Python wrapper for the Yahoo Weather API.
+A Python 3.x wrapper for the Yahoo Weather API.
 
 With the API, you can get up-to-date weather information for any location, including 5-day forecast, wind, atmosphere, astronomy conditions, and more. You can lookup weather by woeid, city name or lat/long.
 
@@ -20,7 +20,7 @@ Examples
 .. code:: python
 
 
-    from weather import Weather
+    from weather import WeatherObj
     weather = Weather()
 
     # Lookup WOEID via http://weather.yahoo.com.
