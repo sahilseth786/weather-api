@@ -25,8 +25,8 @@ Examples
 .. code:: python
 
 
-    from weather import WeatherObj
-    weather = WeatherObj()
+    from weather import Weather
+    weather = Weather
 
     # Lookup WOEID via http://weather.yahoo.com.
 
